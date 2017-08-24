@@ -5,3 +5,7 @@ print 3 ** .5
 
 def foo():
     pass
+
+def bar():
+    pass
+

@@ -9,6 +9,7 @@ def foo():
 
 
 def fun_idea(val):
-	print val
-	val / 0
-	return Fals
+    if type(val) != int:
+        raise Exception('Must be Int!!!!')
+    print val
+    return False
